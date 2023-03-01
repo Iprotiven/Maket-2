@@ -213,17 +213,23 @@ img {
 }
 
 .hero__button {
-  display: block;
-
+  /* display: block; */
+  /* 
   width: 254px;
-  height: 67px;
-
+  height: 67px; */
+  padding: 20px 60px;
   text-align: center;
-
+  border: none;
   border-radius: 10px;
   background-color: var(--accent-color);
+  color: var(--text-color);
+  font-size: 24px;
 }
-
+.hero__button:hover {
+  cursor: pointer;
+  background-color: var(--text-color);
+  color: var(--accent-color);
+}
 .boots {
   position: absolute;
   left: 441px;
@@ -240,10 +246,15 @@ img {
 .img-list {
   display: flex;
   align-items: center;
+  justify-content: space-between;
+  padding: 50px 150px;
 }
-
+.list-item {
+  width: 300px;
+  height: 470px;
+}
 .nike {
-  width: 1440px;
+  /* width: 1440px; */
   height: 600px;
 
   background-image: url(./images/bcg.jpg);
