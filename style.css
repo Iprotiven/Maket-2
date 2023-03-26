@@ -45,8 +45,7 @@ img {
   height: auto;
 }
 
-/* common */
-
+/* common  */
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -249,11 +248,6 @@ img {
   justify-content: space-between;
   padding: 50px 150px;
 }
-.list-item {
-  width: 300px;
-  height: 470px;
-  /* background-color: gray; */
-}
 .nike {
   /* width: 1440px; */
   height: 600px;
@@ -277,10 +271,6 @@ img {
   font-weight: 400;
   font-size: 170px;
   line-height: 208px;
-}
-.border-item {
-  background-image: url(./images/border.svg);
-  padding: 50px 30px 40px;
 }
 .fff {
   position: relative;
