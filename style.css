@@ -250,11 +250,14 @@ img {
 }
 .nike {
   /* width: 1440px; */
-  height: 600px;
-
+  display: flex;
+  flex-direction: column;
+  height: 665px;
   background-image: url(./images/bcg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  padding-left: 20%;
+  padding-top: 4%;
 }
 .email--input {
   padding-left: 5px;
@@ -283,74 +286,126 @@ img {
   line-height: 48px;
 }
 .main-img {
-  position: absolute;
   width: 835px;
   height: 400px;
-  left: 159px;
-  top: 1596px;
 }
-.Ellipse-1 {
+
+.ellipse-1 {
+  box-sizing: border-box;
+  position: absolute;
+  width: 28px;
+  height: 28px;
+  left: 250px;
+  top: 220px;
+}
+.ellipse-2 {
+  box-sizing: border-box;
+  position: absolute;
+  width: 28px;
+  height: 28px;
+  left: 387px;
+  top: 105px;
+}
+.ellipse-3 {
   box-sizing: border-box;
 
   position: absolute;
   width: 28px;
   height: 28px;
-  left: 410px;
-  top: 1814px;
+  left: 462px;
+  top: 200px;
 }
-.Ellipse-2 {
+.ellipse-4 {
   box-sizing: border-box;
-
   position: absolute;
   width: 28px;
   height: 28px;
-  left: 540px;
-  top: 1695px;
-}
-.Ellipse-3 {
-  box-sizing: border-box;
-
-  position: absolute;
-  width: 28px;
-  height: 28px;
-  left: 621px;
-  top: 1795px;
+  left: 727px;
+  top: 83px;
 }
 .magnifying-glass {
   box-sizing: border-box;
-
   position: absolute;
   width: 130px;
   height: 130px;
-  left: 774px;
-  top: 1812px;
+  left: 615px;
+  top: 216px;
 }
 .vector {
   position: absolute;
   width: 403px;
   height: 183px;
-  left: 883px;
-  top: 1832px;
-}
-.first-img {
-  box-sizing: border-box;
-
-  position: absolute;
-  width: 28px;
-  height: 28px;
-  left: 880px;
-  top: 1673px;
+  left: 724px;
+  top: 53px;
 }
 .comf {
   position: absolute;
   width: 215px;
   height: 40px;
-  left: 1061px;
-  top: 1609px;
+  left: 910px;
+  top: 15px;
 
   font-family: "Playfair Display";
   font-style: normal;
   font-weight: 400;
   font-size: 28px;
   line-height: 37px;
+}
+.inside-items {
+  position: relative;
+}
+.compound {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  width: 715px;
+  margin-top: 40px;
+  background: linear-gradient(91.33deg, #8e32c6 15.44%, #d600c0 69.67%);
+  border-radius: 15px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 33px;
+  color: #ffffff;
+  padding: 27px 65px;
+}
+.nike-content {
+  display: flex;
+  align-items: center;
+  width: 835px;
+  flex-direction: column;
+}
+.compound ul li {
+  display: inline;
+  margin-right: 15px;
+}
+.compound ul li:last-child {
+  margin-right: 0px;
+}
+.rectangl-1 {
+  position: absolute;
+  width: 707px;
+  height: 84px;
+  top: 10px;
+
+  background: linear-gradient(
+    91.33deg,
+    rgba(142, 50, 198, 0.6) 15.44%,
+    rgba(214, 0, 192, 0.6) 69.67%
+  );
+  border-radius: 15px;
+}
+.rectangl-2 {
+  position: absolute;
+  width: 699px;
+  height: 83px;
+  top: 20px;
+
+  background: linear-gradient(
+    91.33deg,
+    rgba(142, 50, 198, 0.6) 15.44%,
+    rgba(214, 0, 192, 0.6) 69.67%
+  );
+  border-radius: 15px;
 }
