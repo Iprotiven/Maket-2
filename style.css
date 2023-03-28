@@ -409,3 +409,26 @@ img {
   );
   border-radius: 15px;
 }
+.rectangl-3 {
+  position: absolute;
+  width: 715px;
+  height: 85px;
+  top: 0px;
+  background: linear-gradient(
+    91.33deg,
+    rgba(142, 50, 198, 0.6) 15.44%,
+    rgba(214, 0, 192, 0.6) 69.67%
+  );
+  border-radius: 15px;
+  padding: 27px 65px;
+}
+.rev {
+  display: flex;
+  flex-direction: column;
+  height: 532px;
+  background-image: url(./images/Group\ 6\ 1.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-left: 20%;
+  padding-top: 4%;
+}
