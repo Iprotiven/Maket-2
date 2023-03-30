@@ -1050,6 +1050,315 @@ img {
   position: absolute;
   width: 108px;
   height: 81px;
-  left: 1361px;
-  top: 3560px;
+  left: 1323px;
+  top: 3490px;
+}
+.buy-ht {
+  height: 1024px;
+  position: relative;
+
+  background-image: url(./images/group-7.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.logo-nike-1 {
+  position: absolute;
+  width: 160px;
+  height: 120px;
+  left: 1125px;
+  top: 21px;
+}
+.rec-buy {
+  position: absolute;
+  width: 575px;
+  height: 280px;
+  left: 167px;
+  top: 101px;
+
+  background: rgba(168, 168, 168, 0.26);
+}
+.rec-num {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 194.01px;
+  height: 32.23px;
+  left: 186.1px;
+  top: 185.6px;
+
+  background: #2c4d74;
+  border: 1px solid #000000;
+}
+.rec-date {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 66.35px;
+  height: 32.23px;
+  left: 186.1px;
+  top: 256.11px;
+
+  background: #2c4d74;
+  border: 1px solid #000000;
+}
+.rec-secret {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 66.35px;
+  height: 32.23px;
+  left: 186.1px;
+  top: 326.61px;
+
+  background: #2c4d74;
+  border: 1px solid #000000;
+}
+.rec-square {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 23.12px;
+  height: 23.17px;
+  left: 571.11px;
+  top: 335.68px;
+  background: #2c4d74;
+  border: 1px solid #000000;
+}
+.pymt {
+  position: absolute;
+  width: 172.9px;
+  height: 33.24px;
+  left: 368.05px;
+  top: 116.11px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 33px;
+
+  color: #ffffff;
+}
+.crd {
+  position: absolute;
+  width: 104.55px;
+  height: 21.15px;
+  left: 186.1px;
+  top: 159.42px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+
+  color: #ffffff;
+}
+.dt {
+  position: absolute;
+  width: 117.61px;
+  height: 21.15px;
+  left: 186.1px;
+  top: 231.94px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+
+  color: #ffffff;
+}
+.sc {
+  position: absolute;
+  width: 95.5px;
+  height: 21.15px;
+  left: 186.1px;
+  top: 303.45px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+
+  color: #ffffff;
+}
+.rb {
+  position: absolute;
+  width: 128.67px;
+  height: 21.15px;
+  left: 599.26px;
+  top: 336.68px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+
+  color: #ffffff;
+}
+.logo-visa {
+  position: absolute;
+  width: 105.55px;
+  height: 34.24px;
+  left: 455.51px;
+  top: 193.66px;
+  background-color: white;
+  width: 125.66px;
+  height: 90.65px;
+}
+.logo-msc {
+  position: absolute;
+  width: 105.55px;
+  height: 34.24px;
+  left: 603.28px;
+  top: 193.66px;
+  background-color: white;
+  width: 125.66px;
+  height: 90.65px;
+}
+.fnd {
+  position: absolute;
+  width: 175px;
+  height: 45px;
+  left: 366px;
+  top: 406px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 42px;
+
+  color: #ffffff;
+}
+.wrt {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 580px;
+  height: 50px;
+  left: 162px;
+  top: 462px;
+
+  background: #ffffff;
+  border: 1px solid #000000;
+  border-radius: 50px;
+}
+.wrt-s {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 580px;
+  height: 50px;
+  left: 162px;
+  top: 540px;
+
+  background: #ffffff;
+  border: 1px solid #000000;
+  border-radius: 50px;
+}
+button {
+  /* position: absolute; */
+  width: 255px;
+  height: 70px;
+  left: 325px;
+  top: 837px;
+
+  background: #8e32c6;
+  border-radius: 10px;
+  cursor: pointer;
+}
+button:hover {
+  color: rgb(0, 159, 238);
+  border-color: rgb(0, 159, 238);
+}
+.btm {
+  position: absolute;
+  width: 205px;
+  height: 60px;
+  left: 350px;
+  top: 835px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+
+  color: #ffffff;
+}
+.nike-pir {
+  position: absolute;
+  width: 205px;
+  height: 100px;
+  left: 350px;
+  top: 643px;
+}
+.rectngl-nike {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 220px;
+  height: 150px;
+  left: 342px;
+  top: 617px;
+
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+}
+.price {
+  position: absolute;
+  width: 65px;
+  height: 35px;
+  left: 421px;
+  top: 777px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 33px;
+
+  color: #ffffff;
+}
+.lgn {
+  position: absolute;
+  width: 178px;
+  height: 86px;
+  left: 1150px;
+  top: 106px;
+
+  font-family: "PT Serif";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 64px;
+
+  color: #ffffff;
+}
+.lgn-1 {
+  position: absolute;
+  width: 178px;
+  height: 86px;
+  left: 1340px;
+  top: 3556px;
+
+  font-family: "PT Serif";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+
+  color: #ffffff;
+}
+.flowers-1 {
+  position: absolute;
+  width: 355px;
+  height: 410px;
+  left: 0px;
+  top: 630px;
 }
